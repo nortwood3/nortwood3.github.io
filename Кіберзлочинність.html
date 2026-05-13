@@ -1,0 +1,281 @@
+export default function NobelInformaticsWebsite() {
+  const laureates = [
+    {
+      name: "Алан Тюрінг",
+      years: "1912–1954",
+      title: "Батько сучасної інформатики",
+      image: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg",
+      description:
+        "Алан Тюрінг заклав основи теоретичної інформатики та штучного інтелекту. Його роботи стали фундаментом для створення сучасних комп’ютерів.",
+      achievement:
+        "Розробив концепцію машини Тюрінга та допоміг розшифрувати код Enigma під час Другої світової війни."
+    },
+    {
+      name: "Тім Бернерс-Лі",
+      years: "1955 – теперішній час",
+      title: "Творець Всесвітньої павутини",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tim_Berners-Lee_CP_2.jpg",
+      description:
+        "Британський вчений, який створив WWW, HTTP та HTML — основи сучасного Інтернету.",
+      achievement:
+        "Завдяки його винаходам люди отримали можливість переглядати вебсайти у браузері."
+    },
+    {
+      name: "Дональд Кнут",
+      years: "1938 – теперішній час",
+      title: "Легенда алгоритмів",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Donald_Ervin_Knuth_%28cropped%29.jpg",
+      description:
+        "Американський науковець, автор книги «Мистецтво програмування». Його роботи суттєво вплинули на розвиток алгоритмів.",
+      achievement:
+        "Отримав премію Тюрінга — найвищу нагороду у галузі інформатики."
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кіберзлочинність</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 60px;
+      color: #22d3ee;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 1000px;
+      margin: auto;
+      font-size: 22px;
+      color: #e2e8f0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 50px 0;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    h2 {
+      font-size: 40px;
+      color: #22d3ee;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .text-box {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 20px;
+      font-size: 20px;
+      color: #e2e8f0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 25px;
+    }
+
+    .card h3 {
+      color: #22d3ee;
+      margin-bottom: 15px;
+      font-size: 30px;
+    }
+
+    .card p {
+      font-size: 18px;
+      color: #e2e8f0;
+    }
+
+    .rules {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .rule {
+      background: #1e293b;
+      border-left: 5px solid #22d3ee;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 30px;
+      color: #94a3b8;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Кіберзлочинність</h1>
+
+    <p>
+      Кіберзлочинність — це незаконна діяльність у мережі Інтернет або за допомогою комп’ютерних технологій.
+      Сьогодні вона є однією з найбільших загроз для користувачів, компаній та держав.
+    </p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Що таке кіберзлочинність?</h2>
+
+      <div class="text-box">
+        <p>
+          Кіберзлочинність охоплює різноманітні злочини, пов’язані з використанням комп’ютерів,
+          смартфонів, серверів та Інтернету. Зловмисники можуть викрадати особисті дані,
+          зламувати акаунти, заражати пристрої вірусами або вимагати гроші за відновлення доступу до інформації.
+        </p>
+
+        <br>
+
+        <p>
+          У сучасному світі практично кожна людина користується Інтернетом, тому питання кібербезпеки
+          стає дедалі важливішим. Навіть звичайний користувач може стати жертвою шахраїв через необережність.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Основні види кіберзлочинів</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Фішинг">
+
+          <div class="card-content">
+            <h3>Фішинг</h3>
+
+            <p>
+              Фішинг — це спосіб обману користувачів через підроблені сайти або повідомлення.
+              Шахраї намагаються отримати логіни, паролі та банківські дані.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop" alt="Віруси">
+
+          <div class="card-content">
+            <h3>Комп’ютерні віруси</h3>
+
+            <p>
+              Шкідливі програми можуть пошкоджувати файли, уповільнювати роботу комп’ютера
+              або викрадати особисту інформацію користувача.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop" alt="Хакер">
+
+          <div class="card-content">
+            <h3>Хакерські атаки</h3>
+
+            <p>
+              Хакери можуть зламувати сайти, сервери та акаунти для отримання конфіденційної інформації
+              або порушення роботи систем.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <h2>Як захиститися?</h2>
+
+      <div class="rules">
+        <div class="rule">✅ Використовуйте складні паролі.</div>
+        <div class="rule">✅ Не відкривайте підозрілі посилання.</div>
+        <div class="rule">✅ Оновлюйте антивірус та систему.</div>
+        <div class="rule">✅ Не завантажуйте невідомі файли.</div>
+        <div class="rule">✅ Увімкніть двофакторну автентифікацію.</div>
+        <div class="rule">✅ Не передавайте особисті дані стороннім людям.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Висновок</h2>
+
+      <div class="text-box">
+        <p>
+          Кіберзлочинність є глобальною проблемою сучасного суспільства. Щороку кількість атак у мережі
+          зростає, а методи шахраїв стають дедалі складнішими. Саме тому важливо знати основні правила
+          безпечної роботи в Інтернеті.
+        </p>
+
+        <br>
+
+        <p>
+          Дотримання простих правил кібербезпеки допоможе захистити особисті дані,
+          уникнути фінансових втрат та безпечно користуватися сучасними технологіями.
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Сайт створений на HTML та CSS | Тема: Кіберзлочинність</p>
+  </footer>
+
+</body>
+</html>
